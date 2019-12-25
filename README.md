@@ -34,6 +34,9 @@ func NewSshClient() (*ssh.Client, error) {
 go build main.go
 go run  main.go 
 
+
+ps:这里依赖已经下载 工程目录就是GOPATH目录
+
 ```
 
 ## 效果
