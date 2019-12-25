@@ -1,10 +1,9 @@
 # go-webssh
 1.13.5 
 
-## 核心
-> 本项目代码来自 https://github.com/dejavuzhou/felix ，只是把里面的webssh拿出来，修改了一下，做成webssh，特此说明.有需要可以查看此项目。
-
-
+## sshd
+> 浏览器共享远程linux终端  
+> %GOPATH%=D:\goPro  
 ## 安装
 >  修改 core/ssh.go 里面的账号密码地址等信息。 也可以自己修改成用密钥登录。
 ```go
