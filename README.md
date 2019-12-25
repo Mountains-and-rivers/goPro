@@ -19,7 +19,7 @@ func NewSshClient() (*ssh.Client, error) {
 	//} else {
 	//	config.Auth = []ssh.AuthMethod{publicKeyAuthFunc(h.Key)}
 	//}
-	addr := fmt.Sprintf("%s:%d", "192.168.100.200", 22)
+	addr := fmt.Sprintf("%s:%d", "192.168.31.186", 22)
 	c, err := ssh.Dial("tcp", addr, config)
 	if err != nil {
 		return nil, err
