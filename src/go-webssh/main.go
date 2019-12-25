@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/hequan2017/go-webssh/core"
+	"github.com/Mountains-and-rivers/go-webssh/core"
 	"net/http"
 	"strings"
 )
