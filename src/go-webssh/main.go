@@ -56,5 +56,6 @@ func main() {
 	})
 	router.Use(Cors())
 	router.GET("/ws/:id", core.WsSsh)
-	_ = router.Run() // listen and serve on 0.0.0.0:8080
+	fmt.Println("http://localhost:8000")
+	_ = router.Run(":8000") // listen and serve on 0.0.0.0:8080
 }
