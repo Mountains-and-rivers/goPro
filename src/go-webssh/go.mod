@@ -1,4 +1,4 @@
-module github.com/hequan2017/go-webssh
+module github.com/Mountains-and-rivers/go-webssh
 
 go 1.12
 
